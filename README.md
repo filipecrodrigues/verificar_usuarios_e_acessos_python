@@ -4,19 +4,22 @@ Este projeto tem como objetivo comparar os **grupos** que dois usuários possuem
 
 ---
 
-## 📁 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 verificar-planilha/
-├── main.py            # Script principal para comparar os grupos
-├── .gitignore         # Arquivos a serem ignorados pelo Git
-├── README.md          # Documentação do projeto
+├── docs/              # docuemntações do projeto 
 ├── venv/              # Ambiente virtual Python (opcional)
+├── .gitignore         # Arquivos a serem ignorados pelo Git
+├── main.py            # Script principal para comparar os grupos
+├── README.md          # Documentação do projeto
+├── requeriments.txt   # Lista de dependências do projeto
+
 ```
 
 ---
 
-## ✅ Requisitos
+##  Requisitos
 
 - Python 3.10 ou superior
 - pip
@@ -24,7 +27,7 @@ verificar-planilha/
 
 ---
 
-## 📦 Instalação
+##  Instalação
 
 1. **Clone o repositório**:
 
@@ -50,7 +53,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🛠️ Como usar
+##  Como usar
 
 1. Execute o script:
 
@@ -66,18 +69,18 @@ python main.py
 
 ---
 
-## 📋 Formato esperado das planilhas
+## Formato esperado das planilhas
 
 As planilhas de entrada devem conter as colunas com os seguintes nomes:
 
 - `Login`: nome do usuário
 - `Grupo`: nome do grupo de acesso
 
-⚠️ O sistema é sensível ao nome exato das colunas!
+ O sistema é sensível ao nome exato das colunas!
 
 ---
 
-## 🧾 Exemplo de saída
+##  Exemplo de saída
 
 Será gerado um arquivo:
 
@@ -89,7 +92,7 @@ Este arquivo conterá os grupos que o usuário Y ainda não possui.
 
 ---
 
-## 📌 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - Python
 - pandas
@@ -99,13 +102,13 @@ Este arquivo conterá os grupos que o usuário Y ainda não possui.
 
 ---
 
-## 🧑‍💻 Autor
+##  Autor
 
 Desenvolvido por **Filipe C.**  
 GitHub: https://github.com/filipecrodrigues/
 
 ---
 
-## 📝 Licença
+##  Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
